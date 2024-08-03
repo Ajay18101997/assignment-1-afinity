@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="main-inner-wrap">
+            <div class="main-wrapper">
+                <header class="header">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="./assets/images/logo.png" alt="logo" class="logo-img">
+                                </a>
+                            </div>
+                            <div class="right-wrap">
+                                <nav class="desktop-menu">
+                                    <ul class="desk-nav">
+                                        <li><a href="#">Menu 1 &#9660;</a></li>
+                                        <li><a href="#">Menu 2</a></li>
+                                        <li><a href="#">Menu 3</a></li>
+                                        <li><a href="#">Menu 4</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="mobile-menu" id="mobileMenu" onclick="toggleMenu()">
+                                    <div class="overlay"></div>
+                                    <div class="mob_hamburger_wrap">
+                                        <div class="mob_hamburger">
+                                            <div class="bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mob-menu-list" id="mobileMenuList">
+                                    <div class="close-icon-wrap">
+                                        <div class="logo">
+                                            <a href="#">
+                                                <img src="./assets/images/logo.png" class="logo-mobile" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="close-icon" onclick="toggleMenu()">
+                                            X
+                                        </div>
+                                    </div>
+                                    <div class="nav-list">
+                                        <ul>
+                                            <li><a href="#">Menu 1 &#9660;</a></li>
+                                            <li><a href="#">Menu 2</a></li>
+                                            <li><a href="#">Menu 3</a></li>
+                                            <li><a href="#">Menu 4</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </header>
+                <section class="banner-main-wrap">
+                    <div class="banner">
+                        <div class="container">
+                            <div class="banner-wrap">
+                                <div class="inner-content">
+                                    <h1 class="title"></h1>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-1">
+                    <div class="container">
+                        <h2 class="heading">Lorem Ipsum is simply dummt text of the printing</h2>
+                        <div class="content-wrap">
+                            <div class="img-wrap">
+                                <img src="./assets/images/dummy-img-2.png" />
+                            </div>
+                            <div class="img-wrap">
+                                <img src="./assets/images/dummy-img-1.png" />
+                            </div>
+                            <div class="img-wrap">
+                                <img src="./assets/images/dummy-img-3.png" />
+                            </div>
+                            <div class="img-wrap">
+                                <img src="./assets/images/dummy-img-4.png" />
+                            </div>
+                            <div class="img-wrap">
+                                <img src="./assets/images/dummy-img-5.png" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-2">
+                    <div class="container">
+                        <h2 class="heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                        <div class="content-wrap">
+                            <div class="circle-wrap">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/dummy-img-6.png" class="img-ratio"/>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.   
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-wrap">
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.   
+                                </p>
+                            </div>
+                            <div class="circle-wrap">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/dummy-img-7.png" class="img-ratio"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-3">
+                    <div class="container">
+                        <div class="tabs">
+                            <button class="tab-btn active" onclick="openTab(event, 'tab1')">Tab 1</button>
+                            <button class="tab-btn" onclick="openTab(event, 'tab2')">Tab 2</button>
+                        </div>
+
+                        <div id="tab1" class="tab-content">
+                            <p>This is tab 1 data</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.   
+                            </p>
+                        </div>
+
+                        <div id="tab2" class="tab-content" style="display:none;">
+                            <p>This is tab 2 data</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.   
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-wrap">
+                    <div class="footer-links">
+                        <button>Subscribe</button>
+                        <ul class="footer-menu">
+                            <li class="menu-item"><a href="#" target="_blank">Privacy Policy</a></li>
+                            <li class="menu-item"><a href="#" target="_blank">Terms of Use</a></li>
+                            <li class="menu-item"><a href="#" target="_blank">All Rights Reserved</a></li>
+                        </ul>
+                        <div class="logo">
+                            <a href="#">
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./assets/script/index.js"></script>
+</body>
+
+</html>
